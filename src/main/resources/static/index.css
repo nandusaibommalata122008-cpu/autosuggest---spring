@@ -1,3 +1,55 @@
 h1{
     color:olivedrab;
 }
+
+*{
+    margin:0px;
+} 
+
+.navbar{
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a{
+    padding:20px 20px 20px 20px;
+    text-decoration:underline;
+}
+
+.navbar a:hover{
+    color:blue;
+    background:aqua;
+}
+
+.body{
+    background-color:rgb(230, 173, 173);
+}
+
+.card{
+    border: 1px solid black;
+    width: 350px;
+    background-color: cyan;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 50px;
+    overflow:hidden;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.card img{
+    
+background-attachment: green;
+    border-radius: 50%;
+
+}
+.card button{
+    border-radius: 20px;
+width: 200px;
+
+}
